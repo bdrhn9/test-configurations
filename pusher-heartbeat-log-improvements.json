@@ -1,0 +1,2415 @@
+{
+  "nodeSettings": {
+    "nodeVersion": "0.1.0",
+    "rateLimiting": { "Nodary": { "maxConcurrency": 25, "minTime": 10 } },
+    "airnodeWalletMnemonic": "${WALLET_MNEMONIC}",
+    "stage": "dev"
+  },
+  "templates": {
+    "0x444e63134b8cb38ed0e10012c864ab0e356b502c41583cf30c136e0726a57ca5": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "AAPL/USD"
+        }
+      ]
+    },
+    "0x08e59352a8090a6592e77e185464139d5682384641b58d643762408700e766bd": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "AMZN/USD"
+        }
+      ]
+    },
+    "0xeeb93ccfc9818a2e806eda5e93d770ee7b34858bf89ba69ba4cc916763a2cad9": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ARKK/USD"
+        }
+      ]
+    },
+    "0x869f1f7a5381d8f9a6fe990c4f81666090fa906965b85b3e159a89ae45fe8105": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "COIN/USD"
+        }
+      ]
+    },
+    "0x1adc6d7dbef54d15c7b7b7b9042037d5731ec4cb9a6c90ce1737dbf46dce9d50": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "GME/USD"
+        }
+      ]
+    },
+    "0xcaca65c595ad5f494cfbda9a6b3417e0381ff53cb9edf86a48514eedbcc81042": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "GOOGL/USD"
+        }
+      ]
+    },
+    "0xc7825454fa04f538567781e8a5b901ae5823b33a3980fa0fde22d072b62baa27": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "JPM/USD"
+        }
+      ]
+    },
+    "0x261d50c503e85d371e23292201f9b1061ed8f42ac7c404d42292dd54b81442a1": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "META/USD"
+        }
+      ]
+    },
+    "0x54ee7a8884ff06436e357e09079a6916035240ff5697ca3e5b10dc7a2aa9cc78": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "MSFT/USD"
+        }
+      ]
+    },
+    "0xaf8508b98df96e55c59a750930fbe874cbe700b4433c06e941f389a5cc08e91f": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "NFLX/USD"
+        }
+      ]
+    },
+    "0xed1062042873e953864bf4bc3bec479a6e024fd605884f4be9ddf0abf93d1767": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "NVDA/USD"
+        }
+      ]
+    },
+    "0x7ee3ab537c219e402f48555fe828e5875d721f55928590460a5efe328682ae16": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "SPY/USD"
+        }
+      ]
+    },
+    "0xe80b1bba0e63d88349455092c20891de1d19c07545d39d017fe7625b2b71986a": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "TSLA/USD"
+        }
+      ]
+    },
+    "0x7c785a920ebddda0a550b6e106fb354a5d46b1db6c591182a311a531eb27a6cd": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "TSM/USD"
+        }
+      ]
+    },
+    "0xa08c2c78d70a3d11c214fc5db74f01a2f8d1ec4a7f24f6054601a60f5feebf87": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "CBETH/ETH"
+        }
+      ]
+    },
+    "0xbf2fb565abf2903f948696b8bb3c911f332779e64dfcbbcca29a483367a95f7a": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "RETH/ETH"
+        }
+      ]
+    },
+    "0x8e5222210418a5f6375f32e96a5cdfd218f6abbbf3e0253570a5c05addb8b54d": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "SFRXETH/FRXETH"
+        }
+      ]
+    },
+    "0xfd71640d856018c1d4efc1356f1caef72510fc1157ce272b98e4af03cd327b52": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "SWETH/ETH"
+        }
+      ]
+    },
+    "0xed6950ac2c4596e1594a479892392a049db3ee3893fb4ad358e6fa1dd0d00afc": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "WSTETH/STETH"
+        }
+      ]
+    },
+    "0xcbed908f842f38e407465339a4cdc78fa204491b68e90a2e6cc03cda27fd0aab": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "AUD/USD"
+        }
+      ]
+    },
+    "0xd35268d4d79d1cf77550db0f6209397e7c7c934c4f08257efbbee4bd29aaed29": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "BRL/USD"
+        }
+      ]
+    },
+    "0x88ba9c57193f75aa1b97b5ca4c0c6e14c0119cb219b68c600a3825b450597607": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "CAD/USD"
+        }
+      ]
+    },
+    "0x9a95e9b3a52bccdb5c05c20ec8ed2f154a8f70738e5e9a7df05f791866659eb9": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "CHF/USD"
+        }
+      ]
+    },
+    "0xe9dee55f729162afd75b1de8e5769b01a50af4d22723ad7702986339324eb5b9": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "CNY/USD"
+        }
+      ]
+    },
+    "0xff5f9ba5595d1a2a40987e4cca923659ebf7b5c23d84fcd4232f9d352ca096cb": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "EUR/USD"
+        }
+      ]
+    },
+    "0xd051742a201a99a943235b2993ed7205657942018272caad686ccf687cfdf23e": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "GBP/USD"
+        }
+      ]
+    },
+    "0x1294351aab44d1ffddaf71e50df6d1479b21f2b718050f6c82d3754e56553efb": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "INR/USD"
+        }
+      ]
+    },
+    "0x90ec9619277ff975ca3ae79edf6cff7d4638224db9fb548e7de29fb574c4e458": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "JPY/USD"
+        }
+      ]
+    },
+    "0x170eff8e0d3ee1b85cf16cc079036ff117408fd9ccfa4f1e11775a9859ae044d": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "KRW/USD"
+        }
+      ]
+    },
+    "0x376aa9e64b5d22f4aa52f0b1ecbdb0cb1ae2d624f853b88e2c14dd3a779d4b8c": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "MXN/USD"
+        }
+      ]
+    },
+    "0x491f412bd83f2fbef51c5930e3d5643bbde8bb6c5826d14e45bbd017fc2dc410": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "NZD/USD"
+        }
+      ]
+    },
+    "0xb1ce8f154d34acdcaffc09df43e31c7dc48c97040ec9c25bc775ba2b37cb86f1": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "PHP/USD"
+        }
+      ]
+    },
+    "0x3f4194caa471b7773ede2ecb7db71c223ea008970002a4132fbb48d201342334": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "SEK/USD"
+        }
+      ]
+    },
+    "0xd31b0af559aecced6d907c318fb33eb14fba670cd8acae4959fab59ed88ce9e1": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "SGD/USD"
+        }
+      ]
+    },
+    "0x05495c7dde04d5942250d094d14124bf5f49bcfb28ec5a92280befb8a039ebd8": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "TRY/USD"
+        }
+      ]
+    },
+    "0xd3bd4d914a1851b88029648df3ed92dfeb0f4c2341eec1f0c0f7d494b5aa51ff": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ZAR/USD"
+        }
+      ]
+    },
+    "0x074cb16a3ddd81f736c9db298eba7218309b0a7df2242c6b04f90fdd5265f0b5": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "COP/USD"
+        }
+      ]
+    },
+    "0x0aec7f129a67ea32730127d782e3518a0633e8dcff310659e9575e93cb47c852": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "NGN/USD"
+        }
+      ]
+    },
+    "0xbd3ee8c316129db0fc84424ae820e5b518edb1f661f45a498bcd6e89babd15ae": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "RUB/USD"
+        }
+      ]
+    },
+    "0x5c93da152fabb53156b29e710bee30941136f4c7ceb861ba6abc9a094b25a754": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "AAVE/USD"
+        }
+      ]
+    },
+    "0x41ba2036e4dfd2a56d54c749b01545389fd7c130381abc7a338c8639e14d2367": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ADA/USD"
+        }
+      ]
+    },
+    "0x74c157d2782d406ca21768447fb374ec68bab75e3f2edf8bce79a4674e5361d6": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ALGO/USD"
+        }
+      ]
+    },
+    "0xeef3affdda381d84c28788f0b143444a8e32d5a25d7c7afe728fd090a37beb99": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ANKR/USD"
+        }
+      ]
+    },
+    "0x5f3645a720870d7d025af6d056a99c13fcd13ecff48c3d3fff7d18597cbe9784": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "APE/USD"
+        }
+      ]
+    },
+    "0xe07207a003b88194b8495f6c8e3cd181f43d41d4047b0799763c1de20ba66c00": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "API3/USD"
+        }
+      ]
+    },
+    "0xa1912dab87ce6c05bb9798e6cde0a49c9430b64def24753559537d9b5ce60d55": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ARB/USD"
+        }
+      ]
+    },
+    "0x80b46a2e7d8e9abca8d1b2b2bc8ce8d4c19daf9956fd19f0779540001c955abd": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ATOM/USD"
+        }
+      ]
+    },
+    "0x14932fd7be7ee76828e98faf7f9f61084333146fc0902cd8f03b86c2acdf17ce": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "AVAX/USD"
+        }
+      ]
+    },
+    "0x3796250bae2cf3bf4ecfa392b905a7f04ffd7da59be50d3508b81f6b137b5bfa": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "AXS/USD"
+        }
+      ]
+    },
+    "0x9894f2e4ab21bc4937ffe72dfec1eb968981bbc708d8c0f29baade5fc6847091": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "BAL/USD"
+        }
+      ]
+    },
+    "0x6f7d879814e4f92a4edb93329b48b3b897b99f016edc3851907618245444e3da": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "BAT/USD"
+        }
+      ]
+    },
+    "0x28383862dfc74c61907e0bf77a198cb9c2f27aa77f506161c618edd94c831e1b": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "BNB/USD"
+        }
+      ]
+    },
+    "0x12c8b40b3eb624f0ee8444ec0f5f10e4836ea6e54600614714393a3239cf6166": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "BTC/USD"
+        }
+      ]
+    },
+    "0x6b28799565d4cae2ebee52867dc8c0e0214ddb30a840b98bc1944c2fd8be1ac9": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "BTT/USD"
+        }
+      ]
+    },
+    "0x6ecbc0973fca510bdcffac7f375f339161a7f85008d44cc106e21b4a094ec179": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "BUSD/USD"
+        }
+      ]
+    },
+    "0x5c286eea4b0ecfc9742a1c16098ebd7b89740afba935762356bab1daae03d5d8": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "CAKE/USD"
+        }
+      ]
+    },
+    "0xee75e44664992c031d0137e68216138ab3728ad67226e66cd73bccba5e1fa59f": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "CELO/USD"
+        }
+      ]
+    },
+    "0x1358a86be76c90968807c619d21b04c3986f374d5dbc752ed1a2b24d303fec48": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "CHZ/USD"
+        }
+      ]
+    },
+    "0x0023ea33d3038466d4fbcf52e969e2981ef55b462959d59c6df8659cfb4d54a8": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "COMP/USD"
+        }
+      ]
+    },
+    "0x1ee9f9bb3a9b153748b87bade08812dd3271dd61d63e7dc7e698ffd886bbc5c1": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "CRO/USD"
+        }
+      ]
+    },
+    "0x46d33b95f5b8b9d4a604959170537090a6636295bc2e336778529e76af59566c": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "CRV/USD"
+        }
+      ]
+    },
+    "0xf8aabc905e503cee4ef841115527dd35911791e63214310bc41826eac5f5e6de": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "CVX/USD"
+        }
+      ]
+    },
+    "0x5fe0c37d4a55f3868ec84c57c297f2f779a2aa813da76f045d48da8d142fec54": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "DAI/USD"
+        }
+      ]
+    },
+    "0x805a99406bfecdc44e18eea2963c56a81907880d1479ab3dd81a469f7dbd9673": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "DOGE/USD"
+        }
+      ]
+    },
+    "0xcfade9d69f81183cc854f4a7b4ab337ad97b6e8b9924dec2dff343477c74a920": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "DOT/USD"
+        }
+      ]
+    },
+    "0x8a4a579dd47f4051ab55229afa0b1975b0a32334a1d0b9b24fd8ffb68ac1b32d": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "DYDX/USD"
+        }
+      ]
+    },
+    "0xbffb16a2195b348da30bc737eee3fd4ff4eccf3a9a1e78c83d18951b4d59a491": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ETH/USD"
+        }
+      ]
+    },
+    "0x72f0a9b5ddfb4f9a79782a1c26accaf14cc744e64be3719ffd73b942cd89ff09": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "EUL/USD"
+        }
+      ]
+    },
+    "0x5a324558711512af95824df21840b95ef3dc8ef8930da3d1e1b43e7103cc278b": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "FIL/USD"
+        }
+      ]
+    },
+    "0x9d05efee7653a4aef67049fd2b5109c4edb21ef1d30cf370116e51ff747aedd7": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "FLOW/USD"
+        }
+      ]
+    },
+    "0x48ed5debc2cf98c09c4b1083c6119d5175c699fccb35e603b175cc5f1d6b9c68": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "FXS/USD"
+        }
+      ]
+    },
+    "0x73d43603b3ed399da265b76c259e1adff8cbc88a40d0bdacc9c2b340614cf1ee": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "FTM/USD"
+        }
+      ]
+    },
+    "0x048bd5be791cdbf75b387c593b5529e02b83834c20cd5cb62ac57ca51d4111de": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "GLMR/USD"
+        }
+      ]
+    },
+    "0x61f5bb5d899d3660df4bb92b3a45d2f103ad73a7c163132bef3831a95a21cdde": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "GMX/USD"
+        }
+      ]
+    },
+    "0xebe6ae30f20a48389ce46da8c30a6ade42550ec09345e5ce760e2a92ce6593a1": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "GNO/USD"
+        }
+      ]
+    },
+    "0x6433c99d8690850d54653600bb583fa47881a5b6d4374e07bc8ce9a6582c6bc9": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "GRT/USD"
+        }
+      ]
+    },
+    "0x5fabdd3fd0dad158869658b402bc805b16c9221cfbcb1ec97a53f98dfce89761": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "HBAR/USD"
+        }
+      ]
+    },
+    "0xf9e9b8d95233163c337344a60c8759014b6b25b66bf94277e66aba0107aa0b21": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "HNT/USD"
+        }
+      ]
+    },
+    "0x41069f22c8fec246f29460e438248f9be2a2de336913a7a1959ffc8c303b2f6b": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "HT/USD"
+        }
+      ]
+    },
+    "0xc706cb96ee11762ee0b7116e36ac65e3d536afaea705bd45b291bb141589249c": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ICP/USD"
+        }
+      ]
+    },
+    "0x02f5c34de88580e9d2b3b4c7dfc69e4413f239fca86cfc90c85b90be663e4e90": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "IMX/USD"
+        }
+      ]
+    },
+    "0x6068b78d989a0d2049f4fa6c052b444b8dacc8e2dc4e6d57e55bdc35994ca8f4": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "JOE/USD"
+        }
+      ]
+    },
+    "0xbd0253a1b4792332bff05ab1182893a1f0a6a44764d233e34818b65c94471638": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "KDA/USD"
+        }
+      ]
+    },
+    "0x508231e659926f97b43c7a868a9af49e37811d61b8ed53d965759753c954b485": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "KSM/USD"
+        }
+      ]
+    },
+    "0x221b3544055d7df844ba797307eca22368964ae349f313a2d93b9e0a2d08861f": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "LDO/USD"
+        }
+      ]
+    },
+    "0xd71e9bca4d953a91a335606336c2cc57b57ab54487f6dc9a6a74855d8dce80f7": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "LINK/USD"
+        }
+      ]
+    },
+    "0x1b59bcb13af98520a8d9c8dfeeba1759f996dfdfd90d40b28b9ae2bdfc79d409": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "LQTY/USD"
+        }
+      ]
+    },
+    "0x0f144a984d423e310fcbb12fa9191da76f02f6ccbd19d1769dba294d73c1f22c": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "LTC/USD"
+        }
+      ]
+    },
+    "0xc58faae2285bd42cb27ba156f7edeca0664a676a0a2f25d037a2145a94586db7": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "MANA/USD"
+        }
+      ]
+    },
+    "0xf294ad3e3c3554566bc12b83f8c93ead05ad0701f5074ef9455397907b17981b": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "MKR/USD"
+        }
+      ]
+    },
+    "0x2c474ea866106fccb94447084bef05b9e0278b73e4e168f25aace6804f2252b8": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "MATIC/USD"
+        }
+      ]
+    },
+    "0xbfcd22e48969798082a8ad3b47d7a76380778506c44c8d0c204c031c4767103f": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "METIS/USD"
+        }
+      ]
+    },
+    "0x0e7d93dc6b6e5dfb3c12a820437c7261a7184befef599f0231d6c652f926eb62": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "MOVR/USD"
+        }
+      ]
+    },
+    "0x094cd182abd949c1c024000b2446c01cf543053c6880cca7c4523b10e8d00533": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "NEAR/USD"
+        }
+      ]
+    },
+    "0x001eef366275f2acd3b6a5e6fa2229f97b5509e44d508c72453af0268aab2483": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "OKB/USD"
+        }
+      ]
+    },
+    "0x49a12e04da53fac5ea566cf18f54d83d6225249e5bcfc9345129e991e14ae41a": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "OP/USD"
+        }
+      ]
+    },
+    "0xd8addf565e99cc63efc557571bf14bcd28678d2869056d203a69a314f5666904": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "PAXG/USD"
+        }
+      ]
+    },
+    "0x10b132c093bfc0e085a256bbde08ede8574d1eb8c54c680a0f9a8df05a3c8d3d": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "QUICK/USD"
+        }
+      ]
+    },
+    "0x76d38830c497198b6b3b7e9a5bdfb256192379867f0094a08ce660358b0290bc": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ROSE/USD"
+        }
+      ]
+    },
+    "0x8d1d06ac34be2c8c8fd5b5b5e9c164d8ce16717a0dd0726e023cc31e865f41db": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "RPL/USD"
+        }
+      ]
+    },
+    "0xb86f4d21859a1377cc661e7f3354b501ad3caebe11388c3491a1bbb2fac3a97b": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "RSR/USD"
+        }
+      ]
+    },
+    "0x062fbc867c4640dfab75a9ff1999ac553ab4773271875119b069da6ccadf78bb": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "RUNE/USD"
+        }
+      ]
+    },
+    "0xa1bf0e95b7c71e136fd4b1766dc3177f32fa8b0e7f89c7cee4353baff0b3a1f0": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "SAND/USD"
+        }
+      ]
+    },
+    "0x11868cb27b102f3ac60ed216789b20cd57c789e53ab95147265443d310b78587": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "SHIB/USD"
+        }
+      ]
+    },
+    "0xb4fbcf7841ce0c08bbb7179ce4878efe55306329b70d5809125b0389f9d2f33c": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "SNX/USD"
+        }
+      ]
+    },
+    "0x63b290799138f38ff38866ef62a94399857f4993ccb1b9e8eec007f54efd2ab5": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "SOL/USD"
+        }
+      ]
+    },
+    "0x1334be9914d8470d0f107b0ee088180818992292d2d3e5f409f042f406156d73": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "STETH/USD"
+        }
+      ]
+    },
+    "0xc4b329125415d8b8e779cf5b42073029fb6b480b4c88047d140b3d6c5f5a0b4f": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "STG/USD"
+        }
+      ]
+    },
+    "0x915666c6499510eb844a69654f97ee09cb7102154e0ee849011e1000b2427f9d": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "STX/USD"
+        }
+      ]
+    },
+    "0x5e75d20d854e22522fb2a4097e73ab17c134b6cfe1b3ae5ccf5a9b1001780a47": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "SUSHI/USD"
+        }
+      ]
+    },
+    "0xc98037d4508fee703a47460bea1b4629f56b002916bb1d06e8f2ec66c03112b4": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "TUSD/USD"
+        }
+      ]
+    },
+    "0x1b29c005353e584091b4311d66287942e36f09d8f5af16838ac15ea4ee8fc7bf": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "UNI/USD"
+        }
+      ]
+    },
+    "0xa90a0607cbaf2520de78dfa025abd533e51ce6f137fd2c2507aeee37149fec58": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "USDT/USD"
+        }
+      ]
+    },
+    "0x4c992bedfb4d7570bbcf2e028b831dcc941d44f55b2339d9be65a216ac06e802": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "USDC/USD"
+        }
+      ]
+    },
+    "0x130846d587f400de11443804242b2b900fb9c6c479402e5862e101978c4eead5": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "USDP/USD"
+        }
+      ]
+    },
+    "0x367bdbaa24ae3b4bdffc9776db70d07888674ada1b78b1c1584dc5bd1d1d607c": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "WBTC/USD"
+        }
+      ]
+    },
+    "0x315ecb2978b42dc21f38776c339b161119635468f47399a64685746f421bc453": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "XLM/USD"
+        }
+      ]
+    },
+    "0x149e5eb25b0b7020e8c9b2574ff0aed47c46d65b6df11cf547ffccced85df71a": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "XMR/USD"
+        }
+      ]
+    },
+    "0x0bc9f473de60e8227e07af05db0d0345de634ba669791f07bb49e58949ed68f1": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "XRP/USD"
+        }
+      ]
+    },
+    "0x2464c1c53c41c651adfa8f7147373d3c017a4c4dd8ace87ba5405e478180edb3": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "XTZ/USD"
+        }
+      ]
+    },
+    "0x624079faa86d09ba98e50fed8bf9dd932d37392ce4d6ab379c2080b927eff9e5": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "YFI/USD"
+        }
+      ]
+    },
+    "0xa429474b6096a94825ac6d6c606fdc175d3c2f6effb21f613ab8bc35cb919e6b": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ZIL/USD"
+        }
+      ]
+    },
+    "0xdad5d93625838eb1ac390266bad522de38de7176a433484595f684089a185ecd": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ZRX/USD"
+        }
+      ]
+    },
+    "0xe7110c4b05dd3a3319c6c7b300a688a64cad39793c9fb146d574f4284dc6aea9": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "RNDR/USD"
+        }
+      ]
+    },
+    "0x0b2947aba546e6b950422775c11a2c0bf36498cee4261a40f0b31de71e2b2fa2": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "MASK/USD"
+        }
+      ]
+    },
+    "0x24d53c421a3d27b7fa6c303519d7ed4f168b9af47ce36b3555cc8ca25a2fe2c5": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "ENS/USD"
+        }
+      ]
+    },
+    "0x06fc18ebd94e4518c31c5b3735b9fd224fa127ab7648fc456e7a86d1c6972bff": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "BLUR/USD"
+        }
+      ]
+    },
+    "0x31c4ce35f4464b70077476c7001e65394a9a6aad8ac800ef78b6950a5a4cfcb4": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "BAND/USD"
+        }
+      ]
+    },
+    "0x8189d8a4fcf788a9420bfc8c0723f61d71ac04eff845eaca86f992de127dc524": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "RBN/USD"
+        }
+      ]
+    },
+    "0xe1807f1e0e37dd45527c1f156630bb408787364594a1589165dafaae45ac35eb": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "UMA/USD"
+        }
+      ]
+    },
+    "0x2848fb013ff64178bb3501a12742d9b5412388505df2a26f6affd397380cf78b": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "APT/USD"
+        }
+      ]
+    },
+    "0x6d85ec49a9df4273c1e0ceaf703a12f6af28e8d5b76a77df211338aac2606201": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "PEPE/USD"
+        }
+      ]
+    },
+    "0xc553a0fa69dd9765152d11a833a82a73d314aec20b032fa1b5da34e2bffa6fd9": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "OSMO/USD"
+        }
+      ]
+    },
+    "0x55d3b55a1ed21603d2e898e3ccb46e9be2abcba77f5eb9913f8363aedf3ae6ef": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "SUI/USD"
+        }
+      ]
+    },
+    "0xc7b649d83ecc9807862751149fef4ce2550ac116247e8ec058f49cd250b1f816": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "GNS/USD"
+        }
+      ]
+    },
+    "0x7a5452e5d71815f3907f81907f07bb326151bd7a9ca087e5d46fa2f0caa96b67": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "MNT/USD"
+        }
+      ]
+    },
+    "0xa6c2b345b442706733a3f82e3514b65cad0184b4b6999453fb8c4f1455863d19": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "KAVA/USD"
+        }
+      ]
+    },
+    "0x9155c4b92e5429590e91a4a6f79c0ed72be742194d7a7a9c916beacc590ffd7c": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "XAG/USD"
+        }
+      ]
+    },
+    "0xe0f4d9df84032c8e84a52e00b0a63ac88828ad4d891637044561a23fc5f2ed7d": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "XAU/USD"
+        }
+      ]
+    },
+    "0x73e7524d3cfab7720d1dde73b80a11e476f9ef7b4c9dffcafe8d47ee26da3dcd": {
+      "endpointId": "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc",
+      "parameters": [
+        {
+          "type": "string32",
+          "name": "name1",
+          "value": "WTI/USD"
+        }
+      ]
+    }
+  },
+  "endpoints": {
+    "0x3528e42b017a5fbf9d2993a2df04efc3ed474357575065a111b054ddf9de2acc": {
+      "endpointName": "feed",
+      "oisTitle": "Nodary"
+    }
+  },
+  "triggers": {
+    "signedApiUpdates": [
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x444e63134b8cb38ed0e10012c864ab0e356b502c41583cf30c136e0726a57ca5"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x08e59352a8090a6592e77e185464139d5682384641b58d643762408700e766bd"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xeeb93ccfc9818a2e806eda5e93d770ee7b34858bf89ba69ba4cc916763a2cad9"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x869f1f7a5381d8f9a6fe990c4f81666090fa906965b85b3e159a89ae45fe8105"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x1adc6d7dbef54d15c7b7b7b9042037d5731ec4cb9a6c90ce1737dbf46dce9d50"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xcaca65c595ad5f494cfbda9a6b3417e0381ff53cb9edf86a48514eedbcc81042"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xc7825454fa04f538567781e8a5b901ae5823b33a3980fa0fde22d072b62baa27"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x261d50c503e85d371e23292201f9b1061ed8f42ac7c404d42292dd54b81442a1"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x54ee7a8884ff06436e357e09079a6916035240ff5697ca3e5b10dc7a2aa9cc78"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xaf8508b98df96e55c59a750930fbe874cbe700b4433c06e941f389a5cc08e91f"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xed1062042873e953864bf4bc3bec479a6e024fd605884f4be9ddf0abf93d1767"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x7ee3ab537c219e402f48555fe828e5875d721f55928590460a5efe328682ae16"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xe80b1bba0e63d88349455092c20891de1d19c07545d39d017fe7625b2b71986a"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x7c785a920ebddda0a550b6e106fb354a5d46b1db6c591182a311a531eb27a6cd"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xa08c2c78d70a3d11c214fc5db74f01a2f8d1ec4a7f24f6054601a60f5feebf87"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xbf2fb565abf2903f948696b8bb3c911f332779e64dfcbbcca29a483367a95f7a"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x8e5222210418a5f6375f32e96a5cdfd218f6abbbf3e0253570a5c05addb8b54d"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xfd71640d856018c1d4efc1356f1caef72510fc1157ce272b98e4af03cd327b52"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xed6950ac2c4596e1594a479892392a049db3ee3893fb4ad358e6fa1dd0d00afc"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xcbed908f842f38e407465339a4cdc78fa204491b68e90a2e6cc03cda27fd0aab"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xd35268d4d79d1cf77550db0f6209397e7c7c934c4f08257efbbee4bd29aaed29"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x88ba9c57193f75aa1b97b5ca4c0c6e14c0119cb219b68c600a3825b450597607"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x9a95e9b3a52bccdb5c05c20ec8ed2f154a8f70738e5e9a7df05f791866659eb9"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xe9dee55f729162afd75b1de8e5769b01a50af4d22723ad7702986339324eb5b9"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xff5f9ba5595d1a2a40987e4cca923659ebf7b5c23d84fcd4232f9d352ca096cb"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xd051742a201a99a943235b2993ed7205657942018272caad686ccf687cfdf23e"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x1294351aab44d1ffddaf71e50df6d1479b21f2b718050f6c82d3754e56553efb"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x90ec9619277ff975ca3ae79edf6cff7d4638224db9fb548e7de29fb574c4e458"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x170eff8e0d3ee1b85cf16cc079036ff117408fd9ccfa4f1e11775a9859ae044d"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x376aa9e64b5d22f4aa52f0b1ecbdb0cb1ae2d624f853b88e2c14dd3a779d4b8c"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x491f412bd83f2fbef51c5930e3d5643bbde8bb6c5826d14e45bbd017fc2dc410"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xb1ce8f154d34acdcaffc09df43e31c7dc48c97040ec9c25bc775ba2b37cb86f1"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x3f4194caa471b7773ede2ecb7db71c223ea008970002a4132fbb48d201342334"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xd31b0af559aecced6d907c318fb33eb14fba670cd8acae4959fab59ed88ce9e1"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x05495c7dde04d5942250d094d14124bf5f49bcfb28ec5a92280befb8a039ebd8"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xd3bd4d914a1851b88029648df3ed92dfeb0f4c2341eec1f0c0f7d494b5aa51ff"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x074cb16a3ddd81f736c9db298eba7218309b0a7df2242c6b04f90fdd5265f0b5"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x0aec7f129a67ea32730127d782e3518a0633e8dcff310659e9575e93cb47c852"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xbd3ee8c316129db0fc84424ae820e5b518edb1f661f45a498bcd6e89babd15ae"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x5c93da152fabb53156b29e710bee30941136f4c7ceb861ba6abc9a094b25a754"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x41ba2036e4dfd2a56d54c749b01545389fd7c130381abc7a338c8639e14d2367"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x74c157d2782d406ca21768447fb374ec68bab75e3f2edf8bce79a4674e5361d6"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xeef3affdda381d84c28788f0b143444a8e32d5a25d7c7afe728fd090a37beb99"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x5f3645a720870d7d025af6d056a99c13fcd13ecff48c3d3fff7d18597cbe9784"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xe07207a003b88194b8495f6c8e3cd181f43d41d4047b0799763c1de20ba66c00"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xa1912dab87ce6c05bb9798e6cde0a49c9430b64def24753559537d9b5ce60d55"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x80b46a2e7d8e9abca8d1b2b2bc8ce8d4c19daf9956fd19f0779540001c955abd"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x14932fd7be7ee76828e98faf7f9f61084333146fc0902cd8f03b86c2acdf17ce"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x3796250bae2cf3bf4ecfa392b905a7f04ffd7da59be50d3508b81f6b137b5bfa"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x9894f2e4ab21bc4937ffe72dfec1eb968981bbc708d8c0f29baade5fc6847091"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x6f7d879814e4f92a4edb93329b48b3b897b99f016edc3851907618245444e3da"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x28383862dfc74c61907e0bf77a198cb9c2f27aa77f506161c618edd94c831e1b"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x12c8b40b3eb624f0ee8444ec0f5f10e4836ea6e54600614714393a3239cf6166"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x6b28799565d4cae2ebee52867dc8c0e0214ddb30a840b98bc1944c2fd8be1ac9"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x6ecbc0973fca510bdcffac7f375f339161a7f85008d44cc106e21b4a094ec179"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x5c286eea4b0ecfc9742a1c16098ebd7b89740afba935762356bab1daae03d5d8"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xee75e44664992c031d0137e68216138ab3728ad67226e66cd73bccba5e1fa59f"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x1358a86be76c90968807c619d21b04c3986f374d5dbc752ed1a2b24d303fec48"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x0023ea33d3038466d4fbcf52e969e2981ef55b462959d59c6df8659cfb4d54a8"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x1ee9f9bb3a9b153748b87bade08812dd3271dd61d63e7dc7e698ffd886bbc5c1"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x46d33b95f5b8b9d4a604959170537090a6636295bc2e336778529e76af59566c"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xf8aabc905e503cee4ef841115527dd35911791e63214310bc41826eac5f5e6de"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x5fe0c37d4a55f3868ec84c57c297f2f779a2aa813da76f045d48da8d142fec54"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x805a99406bfecdc44e18eea2963c56a81907880d1479ab3dd81a469f7dbd9673"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xcfade9d69f81183cc854f4a7b4ab337ad97b6e8b9924dec2dff343477c74a920"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x8a4a579dd47f4051ab55229afa0b1975b0a32334a1d0b9b24fd8ffb68ac1b32d"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xbffb16a2195b348da30bc737eee3fd4ff4eccf3a9a1e78c83d18951b4d59a491"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x72f0a9b5ddfb4f9a79782a1c26accaf14cc744e64be3719ffd73b942cd89ff09"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x5a324558711512af95824df21840b95ef3dc8ef8930da3d1e1b43e7103cc278b"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x9d05efee7653a4aef67049fd2b5109c4edb21ef1d30cf370116e51ff747aedd7"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x48ed5debc2cf98c09c4b1083c6119d5175c699fccb35e603b175cc5f1d6b9c68"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x73d43603b3ed399da265b76c259e1adff8cbc88a40d0bdacc9c2b340614cf1ee"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x048bd5be791cdbf75b387c593b5529e02b83834c20cd5cb62ac57ca51d4111de"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x61f5bb5d899d3660df4bb92b3a45d2f103ad73a7c163132bef3831a95a21cdde"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xebe6ae30f20a48389ce46da8c30a6ade42550ec09345e5ce760e2a92ce6593a1"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x6433c99d8690850d54653600bb583fa47881a5b6d4374e07bc8ce9a6582c6bc9"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x5fabdd3fd0dad158869658b402bc805b16c9221cfbcb1ec97a53f98dfce89761"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xf9e9b8d95233163c337344a60c8759014b6b25b66bf94277e66aba0107aa0b21"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x41069f22c8fec246f29460e438248f9be2a2de336913a7a1959ffc8c303b2f6b"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xc706cb96ee11762ee0b7116e36ac65e3d536afaea705bd45b291bb141589249c"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x02f5c34de88580e9d2b3b4c7dfc69e4413f239fca86cfc90c85b90be663e4e90"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x6068b78d989a0d2049f4fa6c052b444b8dacc8e2dc4e6d57e55bdc35994ca8f4"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xbd0253a1b4792332bff05ab1182893a1f0a6a44764d233e34818b65c94471638"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x508231e659926f97b43c7a868a9af49e37811d61b8ed53d965759753c954b485"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x221b3544055d7df844ba797307eca22368964ae349f313a2d93b9e0a2d08861f"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xd71e9bca4d953a91a335606336c2cc57b57ab54487f6dc9a6a74855d8dce80f7"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x1b59bcb13af98520a8d9c8dfeeba1759f996dfdfd90d40b28b9ae2bdfc79d409"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x0f144a984d423e310fcbb12fa9191da76f02f6ccbd19d1769dba294d73c1f22c"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xc58faae2285bd42cb27ba156f7edeca0664a676a0a2f25d037a2145a94586db7"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xf294ad3e3c3554566bc12b83f8c93ead05ad0701f5074ef9455397907b17981b"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x2c474ea866106fccb94447084bef05b9e0278b73e4e168f25aace6804f2252b8"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xbfcd22e48969798082a8ad3b47d7a76380778506c44c8d0c204c031c4767103f"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x0e7d93dc6b6e5dfb3c12a820437c7261a7184befef599f0231d6c652f926eb62"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x094cd182abd949c1c024000b2446c01cf543053c6880cca7c4523b10e8d00533"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x001eef366275f2acd3b6a5e6fa2229f97b5509e44d508c72453af0268aab2483"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x49a12e04da53fac5ea566cf18f54d83d6225249e5bcfc9345129e991e14ae41a"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xd8addf565e99cc63efc557571bf14bcd28678d2869056d203a69a314f5666904"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x10b132c093bfc0e085a256bbde08ede8574d1eb8c54c680a0f9a8df05a3c8d3d"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x76d38830c497198b6b3b7e9a5bdfb256192379867f0094a08ce660358b0290bc"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x8d1d06ac34be2c8c8fd5b5b5e9c164d8ce16717a0dd0726e023cc31e865f41db"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xb86f4d21859a1377cc661e7f3354b501ad3caebe11388c3491a1bbb2fac3a97b"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x062fbc867c4640dfab75a9ff1999ac553ab4773271875119b069da6ccadf78bb"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xa1bf0e95b7c71e136fd4b1766dc3177f32fa8b0e7f89c7cee4353baff0b3a1f0"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x11868cb27b102f3ac60ed216789b20cd57c789e53ab95147265443d310b78587"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xb4fbcf7841ce0c08bbb7179ce4878efe55306329b70d5809125b0389f9d2f33c"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x63b290799138f38ff38866ef62a94399857f4993ccb1b9e8eec007f54efd2ab5"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x1334be9914d8470d0f107b0ee088180818992292d2d3e5f409f042f406156d73"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xc4b329125415d8b8e779cf5b42073029fb6b480b4c88047d140b3d6c5f5a0b4f"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x915666c6499510eb844a69654f97ee09cb7102154e0ee849011e1000b2427f9d"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x5e75d20d854e22522fb2a4097e73ab17c134b6cfe1b3ae5ccf5a9b1001780a47"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xc98037d4508fee703a47460bea1b4629f56b002916bb1d06e8f2ec66c03112b4"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x1b29c005353e584091b4311d66287942e36f09d8f5af16838ac15ea4ee8fc7bf"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xa90a0607cbaf2520de78dfa025abd533e51ce6f137fd2c2507aeee37149fec58"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x4c992bedfb4d7570bbcf2e028b831dcc941d44f55b2339d9be65a216ac06e802"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x130846d587f400de11443804242b2b900fb9c6c479402e5862e101978c4eead5"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x367bdbaa24ae3b4bdffc9776db70d07888674ada1b78b1c1584dc5bd1d1d607c"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x315ecb2978b42dc21f38776c339b161119635468f47399a64685746f421bc453"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x149e5eb25b0b7020e8c9b2574ff0aed47c46d65b6df11cf547ffccced85df71a"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x0bc9f473de60e8227e07af05db0d0345de634ba669791f07bb49e58949ed68f1"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x2464c1c53c41c651adfa8f7147373d3c017a4c4dd8ace87ba5405e478180edb3"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x624079faa86d09ba98e50fed8bf9dd932d37392ce4d6ab379c2080b927eff9e5"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xa429474b6096a94825ac6d6c606fdc175d3c2f6effb21f613ab8bc35cb919e6b"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xdad5d93625838eb1ac390266bad522de38de7176a433484595f684089a185ecd"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xe7110c4b05dd3a3319c6c7b300a688a64cad39793c9fb146d574f4284dc6aea9"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x0b2947aba546e6b950422775c11a2c0bf36498cee4261a40f0b31de71e2b2fa2"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x24d53c421a3d27b7fa6c303519d7ed4f168b9af47ce36b3555cc8ca25a2fe2c5"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x06fc18ebd94e4518c31c5b3735b9fd224fa127ab7648fc456e7a86d1c6972bff"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x31c4ce35f4464b70077476c7001e65394a9a6aad8ac800ef78b6950a5a4cfcb4"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x8189d8a4fcf788a9420bfc8c0723f61d71ac04eff845eaca86f992de127dc524"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xe1807f1e0e37dd45527c1f156630bb408787364594a1589165dafaae45ac35eb"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x2848fb013ff64178bb3501a12742d9b5412388505df2a26f6affd397380cf78b"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x6d85ec49a9df4273c1e0ceaf703a12f6af28e8d5b76a77df211338aac2606201"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xc553a0fa69dd9765152d11a833a82a73d314aec20b032fa1b5da34e2bffa6fd9"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x55d3b55a1ed21603d2e898e3ccb46e9be2abcba77f5eb9913f8363aedf3ae6ef"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xc7b649d83ecc9807862751149fef4ce2550ac116247e8ec058f49cd250b1f816"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x7a5452e5d71815f3907f81907f07bb326151bd7a9ca087e5d46fa2f0caa96b67"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xa6c2b345b442706733a3f82e3514b65cad0184b4b6999453fb8c4f1455863d19"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x9155c4b92e5429590e91a4a6f79c0ed72be742194d7a7a9c916beacc590ffd7c"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0xe0f4d9df84032c8e84a52e00b0a63ac88828ad4d891637044561a23fc5f2ed7d"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "Nodary",
+        "templateIds": ["0x73e7524d3cfab7720d1dde73b80a11e476f9ef7b4c9dffcafe8d47ee26da3dcd"],
+        "fetchInterval": 30,
+        "updateDelay": 0
+      }
+    ]
+  },
+  "signedApis": [
+    {
+      "name": "Nodary",
+      "url": "https://pool.nodary.io"
+    }
+  ],
+  "ois": [
+    {
+      "oisFormat": "2.2.0",
+      "title": "Nodary",
+      "version": "0.1.0",
+      "apiSpecifications": {
+        "components": {
+          "securitySchemes": {
+            "NodarySecurityScheme1ApiKey": {
+              "in": "header",
+              "name": "x-nodary-api-key",
+              "type": "apiKey"
+            }
+          }
+        },
+        "paths": {
+          "/feed/latest": {
+            "get": {
+              "parameters": [
+                {
+                  "in": "query",
+                  "name": "name"
+                }
+              ]
+            }
+          },
+          "/{path}": {
+            "get": {
+              "parameters": [
+                {
+                  "in": "path",
+                  "name": "path"
+                },
+                {
+                  "in": "query",
+                  "name": "name"
+                }
+              ]
+            }
+          }
+        },
+        "servers": [
+          {
+            "url": "https://api.nodary.io"
+          }
+        ],
+        "security": {
+          "NodarySecurityScheme1ApiKey": []
+        }
+      },
+      "endpoints": [
+        {
+          "fixedOperationParameters": [],
+          "name": "feed-original",
+          "operation": {
+            "method": "get",
+            "path": "/feed/latest"
+          },
+          "parameters": [
+            {
+              "name": "name",
+              "operationParameter": {
+                "in": "query",
+                "name": "name"
+              },
+              "required": false
+            }
+          ],
+          "reservedParameters": [
+            {
+              "name": "_type",
+              "fixed": "int256"
+            },
+            {
+              "name": "_path",
+              "fixed": "value"
+            },
+            {
+              "name": "_times",
+              "fixed": "1000000000000000000"
+            }
+          ],
+          "preProcessingSpecifications": [],
+          "postProcessingSpecifications": []
+        },
+        {
+          "fixedOperationParameters": [],
+          "name": "feed",
+          "operation": {
+            "method": "get",
+            "path": "/{path}"
+          },
+          "parameters": [
+            {
+              "name": "name1",
+              "required": true
+            },
+            {
+              "name": "path",
+              "operationParameter": {
+                "in": "path",
+                "name": "path"
+              },
+              "required": true
+            },
+            {
+              "name": "name",
+              "operationParameter": {
+                "in": "query",
+                "name": "name"
+              },
+              "required": false
+            }
+          ],
+          "reservedParameters": [
+            {
+              "name": "_type",
+              "fixed": "int256"
+            },
+            {
+              "name": "_times",
+              "fixed": "1000000000000000000"
+            }
+          ],
+          "preProcessingSpecifications": [
+            {
+              "environment": "Node",
+              "value": "const preProcessingObject = {\n  \"WTI/USD\": { path: \"feed/latest\", parameters: { name: \"WTI/USD\" } },\n  \"XAG/USD\": { path: \"feed/latest\", parameters: { name: \"XAG/USD\" } },\n  \"XAU/USD\": { path: \"feed/latest\", parameters: { name: \"XAU/USD\" } },\n  \"AAVE/USD\": { path: \"feed/latest\", parameters: { name: \"AAVE/USD\" } },\n  \"ADA/USD\": { path: \"feed/latest\", parameters: { name: \"ADA/USD\" } },\n  \"ALGO/USD\": { path: \"feed/latest\", parameters: { name: \"ALGO/USD\" } },\n  \"ANKR/USD\": { path: \"feed/latest\", parameters: { name: \"ANKR/USD\" } },\n  \"APE/USD\": { path: \"feed/latest\", parameters: { name: \"APE/USD\" } },\n  \"API3/USD\": { path: \"feed/latest\", parameters: { name: \"API3/USD\" } },\n  \"APT/USD\": { path: \"feed/latest\", parameters: { name: \"APT/USD\" } },\n  \"ARB/USD\": { path: \"feed/latest\", parameters: { name: \"ARB/USD\" } },\n  \"ATOM/USD\": { path: \"feed/latest\", parameters: { name: \"ATOM/USD\" } },\n  \"AVAX/USD\": { path: \"feed/latest\", parameters: { name: \"AVAX/USD\" } },\n  \"AXS/USD\": { path: \"feed/latest\", parameters: { name: \"AXS/USD\" } },\n  \"BAL/USD\": { path: \"feed/latest\", parameters: { name: \"BAL/USD\" } },\n  \"BAND/USD\": { path: \"feed/latest\", parameters: { name: \"BAND/USD\" } },\n  \"BAT/USD\": { path: \"feed/latest\", parameters: { name: \"BAT/USD\" } },\n  \"BLUR/USD\": { path: \"feed/latest\", parameters: { name: \"BLUR/USD\" } },\n  \"BNB/USD\": { path: \"feed/latest\", parameters: { name: \"BNB/USD\" } },\n  \"BTC/USD\": { path: \"feed/latest\", parameters: { name: \"BTC/USD\" } },\n  \"BTT/USD\": { path: \"feed/latest\", parameters: { name: \"BTT/USD\" } },\n  \"BUSD/USD\": { path: \"feed/latest\", parameters: { name: \"BUSD/USD\" } },\n  \"CAKE/USD\": { path: \"feed/latest\", parameters: { name: \"CAKE/USD\" } },\n  \"CELO/USD\": { path: \"feed/latest\", parameters: { name: \"CELO/USD\" } },\n  \"CHZ/USD\": { path: \"feed/latest\", parameters: { name: \"CHZ/USD\" } },\n  \"COMP/USD\": { path: \"feed/latest\", parameters: { name: \"COMP/USD\" } },\n  \"CRO/USD\": { path: \"feed/latest\", parameters: { name: \"CRO/USD\" } },\n  \"CRV/USD\": { path: \"feed/latest\", parameters: { name: \"CRV/USD\" } },\n  \"CVX/USD\": { path: \"feed/latest\", parameters: { name: \"CVX/USD\" } },\n  \"DAI/USD\": { path: \"feed/latest\", parameters: { name: \"DAI/USD\" } },\n  \"DOGE/USD\": { path: \"feed/latest\", parameters: { name: \"DOGE/USD\" } },\n  \"DOT/USD\": { path: \"feed/latest\", parameters: { name: \"DOT/USD\" } },\n  \"DYDX/USD\": { path: \"feed/latest\", parameters: { name: \"DYDX/USD\" } },\n  \"ENS/USD\": { path: \"feed/latest\", parameters: { name: \"ENS/USD\" } },\n  \"ETH/USD\": { path: \"feed/latest\", parameters: { name: \"ETH/USD\" } },\n  \"EUL/USD\": { path: \"feed/latest\", parameters: { name: \"EUL/USD\" } },\n  \"FIL/USD\": { path: \"feed/latest\", parameters: { name: \"FIL/USD\" } },\n  \"FLOW/USD\": { path: \"feed/latest\", parameters: { name: \"FLOW/USD\" } },\n  \"FTM/USD\": { path: \"feed/latest\", parameters: { name: \"FTM/USD\" } },\n  \"FXS/USD\": { path: \"feed/latest\", parameters: { name: \"FXS/USD\" } },\n  \"GLMR/USD\": { path: \"feed/latest\", parameters: { name: \"GLMR/USD\" } },\n  \"GMX/USD\": { path: \"feed/latest\", parameters: { name: \"GMX/USD\" } },\n  \"GNO/USD\": { path: \"feed/latest\", parameters: { name: \"GNO/USD\" } },\n  \"GNS/USD\": { path: \"feed/latest\", parameters: { name: \"GNS/USD\" } },\n  \"GRT/USD\": { path: \"feed/latest\", parameters: { name: \"GRT/USD\" } },\n  \"HBAR/USD\": { path: \"feed/latest\", parameters: { name: \"HBAR/USD\" } },\n  \"HNT/USD\": { path: \"feed/latest\", parameters: { name: \"HNT/USD\" } },\n  \"HT/USD\": { path: \"feed/latest\", parameters: { name: \"HT/USD\" } },\n  \"ICP/USD\": { path: \"feed/latest\", parameters: { name: \"ICP/USD\" } },\n  \"IMX/USD\": { path: \"feed/latest\", parameters: { name: \"IMX/USD\" } },\n  \"JOE/USD\": { path: \"feed/latest\", parameters: { name: \"JOE/USD\" } },\n  \"KAVA/USD\": { path: \"feed/latest\", parameters: { name: \"KAVA/USD\" } },\n  \"KDA/USD\": { path: \"feed/latest\", parameters: { name: \"KDA/USD\" } },\n  \"KSM/USD\": { path: \"feed/latest\", parameters: { name: \"KSM/USD\" } },\n  \"LDO/USD\": { path: \"feed/latest\", parameters: { name: \"LDO/USD\" } },\n  \"LINK/USD\": { path: \"feed/latest\", parameters: { name: \"LINK/USD\" } },\n  \"LQTY/USD\": { path: \"feed/latest\", parameters: { name: \"LQTY/USD\" } },\n  \"LTC/USD\": { path: \"feed/latest\", parameters: { name: \"LTC/USD\" } },\n  \"MANA/USD\": { path: \"feed/latest\", parameters: { name: \"MANA/USD\" } },\n  \"MASK/USD\": { path: \"feed/latest\", parameters: { name: \"MASK/USD\" } },\n  \"MATIC/USD\": { path: \"feed/latest\", parameters: { name: \"MATIC/USD\" } },\n  \"METIS/USD\": { path: \"feed/latest\", parameters: { name: \"METIS/USD\" } },\n  \"MKR/USD\": { path: \"feed/latest\", parameters: { name: \"MKR/USD\" } },\n  \"MNT/USD\": { path: \"feed/latest\", parameters: { name: \"MNT/USD\" } },\n  \"MOVR/USD\": { path: \"feed/latest\", parameters: { name: \"MOVR/USD\" } },\n  \"NEAR/USD\": { path: \"feed/latest\", parameters: { name: \"NEAR/USD\" } },\n  \"OKB/USD\": { path: \"feed/latest\", parameters: { name: \"OKB/USD\" } },\n  \"OP/USD\": { path: \"feed/latest\", parameters: { name: \"OP/USD\" } },\n  \"OSMO/USD\": { path: \"feed/latest\", parameters: { name: \"OSMO/USD\" } },\n  \"PAXG/USD\": { path: \"feed/latest\", parameters: { name: \"PAXG/USD\" } },\n  \"PEPE/USD\": { path: \"feed/latest\", parameters: { name: \"PEPE/USD\" } },\n  \"QUICK/USD\": { path: \"feed/latest\", parameters: { name: \"QUICK/USD\" } },\n  \"RBN/USD\": { path: \"feed/latest\", parameters: { name: \"RBN/USD\" } },\n  \"RNDR/USD\": { path: \"feed/latest\", parameters: { name: \"RNDR/USD\" } },\n  \"ROSE/USD\": { path: \"feed/latest\", parameters: { name: \"ROSE/USD\" } },\n  \"RPL/USD\": { path: \"feed/latest\", parameters: { name: \"RPL/USD\" } },\n  \"RSR/USD\": { path: \"feed/latest\", parameters: { name: \"RSR/USD\" } },\n  \"RUNE/USD\": { path: \"feed/latest\", parameters: { name: \"RUNE/USD\" } },\n  \"SAND/USD\": { path: \"feed/latest\", parameters: { name: \"SAND/USD\" } },\n  \"SHIB/USD\": { path: \"feed/latest\", parameters: { name: \"SHIB/USD\" } },\n  \"SNX/USD\": { path: \"feed/latest\", parameters: { name: \"SNX/USD\" } },\n  \"SOL/USD\": { path: \"feed/latest\", parameters: { name: \"SOL/USD\" } },\n  \"STETH/USD\": { path: \"feed/latest\", parameters: { name: \"STETH/USD\" } },\n  \"STG/USD\": { path: \"feed/latest\", parameters: { name: \"STG/USD\" } },\n  \"STX/USD\": { path: \"feed/latest\", parameters: { name: \"STX/USD\" } },\n  \"SUI/USD\": { path: \"feed/latest\", parameters: { name: \"SUI/USD\" } },\n  \"SUSHI/USD\": { path: \"feed/latest\", parameters: { name: \"SUSHI/USD\" } },\n  \"TUSD/USD\": { path: \"feed/latest\", parameters: { name: \"TUSD/USD\" } },\n  \"UMA/USD\": { path: \"feed/latest\", parameters: { name: \"UMA/USD\" } },\n  \"UNI/USD\": { path: \"feed/latest\", parameters: { name: \"UNI/USD\" } },\n  \"USDC/USD\": { path: \"feed/latest\", parameters: { name: \"USDC/USD\" } },\n  \"USDP/USD\": { path: \"feed/latest\", parameters: { name: \"USDP/USD\" } },\n  \"USDT/USD\": { path: \"feed/latest\", parameters: { name: \"USDT/USD\" } },\n  \"WBTC/USD\": { path: \"feed/latest\", parameters: { name: \"WBTC/USD\" } },\n  \"XLM/USD\": { path: \"feed/latest\", parameters: { name: \"XLM/USD\" } },\n  \"XMR/USD\": { path: \"feed/latest\", parameters: { name: \"XMR/USD\" } },\n  \"XRP/USD\": { path: \"feed/latest\", parameters: { name: \"XRP/USD\" } },\n  \"XTZ/USD\": { path: \"feed/latest\", parameters: { name: \"XTZ/USD\" } },\n  \"YFI/USD\": { path: \"feed/latest\", parameters: { name: \"YFI/USD\" } },\n  \"ZIL/USD\": { path: \"feed/latest\", parameters: { name: \"ZIL/USD\" } },\n  \"ZRX/USD\": { path: \"feed/latest\", parameters: { name: \"ZRX/USD\" } },\n  \"AUD/USD\": { path: \"feed/latest\", parameters: { name: \"AUD/USD\" } },\n  \"BRL/USD\": { path: \"feed/latest\", parameters: { name: \"BRL/USD\" } },\n  \"CAD/USD\": { path: \"feed/latest\", parameters: { name: \"CAD/USD\" } },\n  \"CHF/USD\": { path: \"feed/latest\", parameters: { name: \"CHF/USD\" } },\n  \"CNY/USD\": { path: \"feed/latest\", parameters: { name: \"CNY/USD\" } },\n  \"COP/USD\": { path: \"feed/latest\", parameters: { name: \"COP/USD\" } },\n  \"EUR/USD\": { path: \"feed/latest\", parameters: { name: \"EUR/USD\" } },\n  \"GBP/USD\": { path: \"feed/latest\", parameters: { name: \"GBP/USD\" } },\n  \"INR/USD\": { path: \"feed/latest\", parameters: { name: \"INR/USD\" } },\n  \"JPY/USD\": { path: \"feed/latest\", parameters: { name: \"JPY/USD\" } },\n  \"KRW/USD\": { path: \"feed/latest\", parameters: { name: \"KRW/USD\" } },\n  \"MXN/USD\": { path: \"feed/latest\", parameters: { name: \"MXN/USD\" } },\n  \"NGN/USD\": { path: \"feed/latest\", parameters: { name: \"NGN/USD\" } },\n  \"NZD/USD\": { path: \"feed/latest\", parameters: { name: \"NZD/USD\" } },\n  \"PHP/USD\": { path: \"feed/latest\", parameters: { name: \"PHP/USD\" } },\n  \"RUB/USD\": { path: \"feed/latest\", parameters: { name: \"RUB/USD\" } },\n  \"SEK/USD\": { path: \"feed/latest\", parameters: { name: \"SEK/USD\" } },\n  \"SGD/USD\": { path: \"feed/latest\", parameters: { name: \"SGD/USD\" } },\n  \"TRY/USD\": { path: \"feed/latest\", parameters: { name: \"TRY/USD\" } },\n  \"ZAR/USD\": { path: \"feed/latest\", parameters: { name: \"ZAR/USD\" } },\n  \"CBETH/ETH\": {\n    path: \"feed/latest\",\n    parameters: { name: \"cbETH/ETH Exchange Rate\" },\n  },\n  \"RETH/ETH\": {\n    path: \"feed/latest\",\n    parameters: { name: \"rETH/ETH Exchange Rate\" },\n  },\n  \"SFRXETH/FRXETH\": {\n    path: \"feed/latest\",\n    parameters: { name: \"sfrxETH/frxETH Exchange Rate\" },\n  },\n  \"SWETH/ETH\": {\n    path: \"feed/latest\",\n    parameters: { name: \"swETH/ETH Exchange Rate\" },\n  },\n  \"WSTETH/STETH\": {\n    path: \"feed/latest\",\n    parameters: { name: \"wstETH/stETH Exchange Rate\" },\n  },\n  \"AAPL/USD\": { path: \"feed/latest\", parameters: { name: \"AAPL/USD\" } },\n  \"AMZN/USD\": { path: \"feed/latest\", parameters: { name: \"AMZN/USD\" } },\n  \"ARKK/USD\": { path: \"feed/latest\", parameters: { name: \"ARKK/USD\" } },\n  \"COIN/USD\": { path: \"feed/latest\", parameters: { name: \"COIN/USD\" } },\n  \"GME/USD\": { path: \"feed/latest\", parameters: { name: \"GME/USD\" } },\n  \"GOOGL/USD\": { path: \"feed/latest\", parameters: { name: \"GOOGL/USD\" } },\n  \"JPM/USD\": { path: \"feed/latest\", parameters: { name: \"JPM/USD\" } },\n  \"META/USD\": { path: \"feed/latest\", parameters: { name: \"META/USD\" } },\n  \"MSFT/USD\": { path: \"feed/latest\", parameters: { name: \"MSFT/USD\" } },\n  \"NFLX/USD\": { path: \"feed/latest\", parameters: { name: \"NFLX/USD\" } },\n  \"NVDA/USD\": { path: \"feed/latest\", parameters: { name: \"NVDA/USD\" } },\n  \"SPY/USD\": { path: \"feed/latest\", parameters: { name: \"SPY/USD\" } },\n  \"TSLA/USD\": { path: \"feed/latest\", parameters: { name: \"TSLA/USD\" } },\n  \"TSM/USD\": { path: \"feed/latest\", parameters: { name: \"TSM/USD\" } },\n}\noutput = {\n  path: preProcessingObject[endpointParameters.name1].path,\n  ...preProcessingObject[endpointParameters.name1].parameters,\n}\n",
+              "timeoutMs": 5000
+            }
+          ],
+          "postProcessingSpecifications": [
+            {
+              "environment": "Node",
+              "value": "const postProcessingObject = {\n  \"WTI/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"XAG/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"XAU/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"AAVE/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ADA/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ALGO/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ANKR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"APE/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"API3/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"APT/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ARB/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ATOM/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"AVAX/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"AXS/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"BAL/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"BAND/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"BAT/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"BLUR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"BNB/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"BTC/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"BTT/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"BUSD/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"CAKE/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"CELO/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"CHZ/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"COMP/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"CRO/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"CRV/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"CVX/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"DAI/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"DOGE/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"DOT/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"DYDX/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ENS/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ETH/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"EUL/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"FIL/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"FLOW/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"FTM/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"FXS/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"GLMR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"GMX/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"GNO/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"GNS/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"GRT/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"HBAR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"HNT/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"HT/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ICP/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"IMX/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"JOE/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"KAVA/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"KDA/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"KSM/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"LDO/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"LINK/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"LQTY/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"LTC/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"MANA/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"MASK/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"MATIC/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"METIS/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"MKR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"MNT/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"MOVR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"NEAR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"OKB/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"OP/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"OSMO/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"PAXG/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"PEPE/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"QUICK/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"RBN/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"RNDR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ROSE/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"RPL/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"RSR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"RUNE/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"SAND/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"SHIB/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"SNX/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"SOL/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"STETH/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"STG/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"STX/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"SUI/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"SUSHI/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"TUSD/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"UMA/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"UNI/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"USDC/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"USDP/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"USDT/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"WBTC/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"XLM/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"XMR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"XRP/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"XTZ/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"YFI/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ZIL/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ZRX/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"AUD/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"BRL/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"CAD/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"CHF/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"CNY/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"COP/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"EUR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"GBP/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"INR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"JPY/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"KRW/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"MXN/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"NGN/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"NZD/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"PHP/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"RUB/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"SEK/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"SGD/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"TRY/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ZAR/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"CBETH/ETH\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"RETH/ETH\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"SFRXETH/FRXETH\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"SWETH/ETH\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"WSTETH/STETH\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"AAPL/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"AMZN/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"ARKK/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"COIN/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"GME/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"GOOGL/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"JPM/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"META/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"MSFT/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"NFLX/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"NVDA/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"SPY/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"TSLA/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n  \"TSM/USD\":\n    \"(response) => {\\n              return response.value;\\n            }\\n            \",\n}\nconst parser = eval(postProcessingObject[endpointParameters.name1])\noutput = parser(input)\n",
+              "timeoutMs": 5000
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "apiCredentials": [
+    {
+      "oisTitle": "Nodary",
+      "securitySchemeName": "NodarySecurityScheme1ApiKey",
+      "securitySchemeValue": "${NODARYSECURITYSCHEME1APIKEY_VALUE}"
+    }
+  ]
+}
