@@ -1,0 +1,101 @@
+{
+  "templates": {
+    "0x97350ccb5fc32c7f790e0dfe4f4e83a8f810834beeae5cc8de6b76fcf89d1349": {
+      "endpointId": "0x219ccf9482782e8e634ba7498a7b07e8cf56905a4a7297b098dbb534da07ae0b",
+      "parameters": []
+    }
+  },
+  "endpoints": {
+    "0x219ccf9482782e8e634ba7498a7b07e8cf56905a4a7297b098dbb534da07ae0b": {
+      "endpointName": "GET_OEV_TEST_FEED_VALUE",
+      "oisTitle": "OEV_TEST_FEED"
+    }
+  },
+  "triggers": {
+    "signedApiUpdates": [
+      {
+        "signedApiName": "Nodary",
+        "templateIds": [
+          "0x97350ccb5fc32c7f790e0dfe4f4e83a8f810834beeae5cc8de6b76fcf89d1349"
+        ],
+        "fetchInterval": 5,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "API3",
+        "templateIds": [
+          "0x97350ccb5fc32c7f790e0dfe4f4e83a8f810834beeae5cc8de6b76fcf89d1349"
+        ],
+        "fetchInterval": 5,
+        "updateDelay": 0
+      }
+    ]
+  },
+  "signedApis": [
+    {
+      "name": "Nodary",
+      "url": "https://signed-api.nodary.io",
+      "authToken": "${AUTH_TOKEN_NODARY}"
+    },
+    {
+      "name": "API3",
+      "url": "https://signed-api.api3.org",
+      "authToken": "${AUTH_TOKEN_API3}"
+    }
+  ],
+  "ois": [
+    {
+      "apiSpecifications": {
+        "components": {
+          "securitySchemes": {}
+        },
+        "paths": {},
+        "security": {},
+        "servers": [
+          {
+            "url": "https://api.nodary.io"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "fixedOperationParameters": [],
+
+          "name": "GET_OEV_TEST_FEED_VALUE",
+          "parameters": [],
+
+          "postProcessingSpecifications": [
+            {
+              "environment": "Node",
+              "timeoutMs": 10000,
+              "value": "\n// Combined function for alternating growth and decay\nfunction combinedFunction(x) {\n    const periodDuration = 1209600; // 2 weeks in seconds\n    const phase = Math.floor(x / periodDuration) % 2; // Alternates every 2 weeks\n\n    if (phase === 0) {\n      // Growth phase\n      return growthFunction(x % periodDuration);\n    } else {\n      // Decay phase\n      return decayFunction(x % periodDuration);\n    }\n  }\n\n  // Definition of the decayFunction\n  function decayFunction(x) {\n    const a = 100000;\n    const decayBase = 0.999991625; // Adjusted base for 1% decay over 1200 seconds\n    const period = 300; // Period for the sine function\n    const amplitude = 20.19966832574505 / 2; // Amplitude of the sine wave\n    const pi = Math.PI; // Pi constant\n\n    // Calculating the exponential decay part\n    const decay = a * Math.pow(decayBase, x);\n\n    // Calculating the periodic (sine) part\n    const periodic = amplitude * (Math.sin(((2 * pi) / period) * x - pi / 2) + 1);\n\n    // Sum of exponential decay and periodic parts\n    return decay + periodic;\n  }\n\n  // Definition of the growthFunction\n  function growthFunction(x) {\n    const a = 2.5;\n    const growthBase = 1.01; // Base for 1% growth over 1200 seconds\n    const period = 300; // Period for the sine function\n    const amplitude = 20.19966832574505 / 2; // Amplitude of the sine wave\n    const pi = Math.PI; // Pi constant\n\n    // Calculating the exponential growth part\n    const growth = a * Math.pow(growthBase, x / 1200);\n\n    // Calculating the periodic (sine) part, identical to the decay function\n    const periodic = amplitude * (Math.sin(((2 * pi) / period) * x - pi / 2) + 1);\n\n    // Sum of exponential growth and periodic parts\n    return growth + periodic;\n  }\n\n  // Adjusted function to calculate elapsed seconds from the new starting date\n  function getElapsedSecondsFromDate(date) {\n    const startDate = new Date(\"2024-02-23T00:00:00Z\"); // New starting point\n    return (date.getTime() - startDate.getTime()) / 1000; // Adjusts for the new start date\n  }\n\n  const main = () => {\n    // use current date as example\n    const elapsedSeconds = getElapsedSecondsFromDate(new Date());\n    const value = combinedFunction(elapsedSeconds);\n    return value;\n  };\n\n  // return value with 18 decimal places\n  const output = main().toFixed(18);\n"
+            }
+          ],
+          "reservedParameters": [
+            {
+              "name": "_type",
+              "fixed": "uint256"
+            },
+            {
+              "name": "_path",
+              "fixed": ""
+            },
+            {
+              "name": "_times",
+              "fixed": "1000000000000000000"
+            }
+          ]
+        }
+      ],
+      "oisFormat": "2.3.1",
+      "title": "OEV_TEST_FEED",
+      "version": "0.1.0"
+    }
+  ],
+  "apiCredentials": [],
+  "nodeSettings": {
+    "nodeVersion": "0.5.0",
+    "airnodeWalletMnemonic": "${WALLET_MNEMONIC}",
+    "stage": "local-example"
+  }
+}
