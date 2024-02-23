@@ -1,0 +1,101 @@
+{
+  "templates": {
+    "0x97350ccb5fc32c7f790e0dfe4f4e83a8f810834beeae5cc8de6b76fcf89d1349": {
+      "endpointId": "0x219ccf9482782e8e634ba7498a7b07e8cf56905a4a7297b098dbb534da07ae0b",
+      "parameters": []
+    }
+  },
+  "endpoints": {
+    "0x219ccf9482782e8e634ba7498a7b07e8cf56905a4a7297b098dbb534da07ae0b": {
+      "endpointName": "GET_OEV_TEST_FEED_VALUE",
+      "oisTitle": "OEV_TEST_FEED"
+    }
+  },
+  "triggers": {
+    "signedApiUpdates": [
+      {
+        "signedApiName": "Nodary",
+        "templateIds": [
+          "0x97350ccb5fc32c7f790e0dfe4f4e83a8f810834beeae5cc8de6b76fcf89d1349"
+        ],
+        "fetchInterval": 5,
+        "updateDelay": 0
+      },
+      {
+        "signedApiName": "API3",
+        "templateIds": [
+          "0x97350ccb5fc32c7f790e0dfe4f4e83a8f810834beeae5cc8de6b76fcf89d1349"
+        ],
+        "fetchInterval": 5,
+        "updateDelay": 0
+      }
+    ]
+  },
+  "signedApis": [
+    {
+      "name": "Nodary",
+      "url": "https://signed-api.nodary.io",
+      "authToken": "${AUTH_TOKEN_NODARY}"
+    },
+    {
+      "name": "API3",
+      "url": "https://signed-api.api3.org",
+      "authToken": "${AUTH_TOKEN_API3}"
+    }
+  ],
+  "ois": [
+    {
+      "apiSpecifications": {
+        "components": {
+          "securitySchemes": {}
+        },
+        "paths": {},
+        "security": {},
+        "servers": [
+          {
+            "url": "https://api.nodary.io"
+          }
+        ]
+      },
+      "endpoints": [
+        {
+          "fixedOperationParameters": [],
+
+          "name": "GET_OEV_TEST_FEED_VALUE",
+          "parameters": [],
+
+          "postProcessingSpecifications": [
+            {
+              "environment": "Node",
+              "timeoutMs": 10000,
+              "value": "function cyclingLinearFunction(elapsedSeconds) {\n  const cycleDuration = 2 * 7 * 24 * 60 * 60; // 2 weeks in seconds\n  const halfCycleDuration = cycleDuration / 2; // 1 week in seconds\n  const startValue = 2000;\n  const endValue = 100;\n\n  // Determine the current position in the cycle\n  const positionInCycle = elapsedSeconds % cycleDuration;\n\n  // Calculate the value based on the current phase of the cycle\n  if (positionInCycle <= halfCycleDuration) {\n    // Decreasing phase: from 2000 to 100\n    return startValue + (endValue - startValue) * (positionInCycle / halfCycleDuration);\n  } else {\n    // Increasing phase: from 100 back to 2000\n    const positionInSecondHalf = positionInCycle - halfCycleDuration;\n    return endValue + (startValue - endValue) * (positionInSecondHalf / halfCycleDuration);\n  }\n}\n\n// To use this function with dates:\nfunction getElapsedSecondsFromDate(date, startDate) {\n  return (date.getTime() - startDate.getTime()) / 1000; // Converts milliseconds to seconds\n}\n\nconst startDate = new Date(\"2024-02-24T00:00:00Z\"); // Starting point\n\nconst elapsedSeconds = getElapsedSecondsFromDate(new Date(), startDate);\n\nconst output = cyclingLinearFunction(elapsedSeconds).toFixed(18);"
+            }
+          ],
+          "reservedParameters": [
+            {
+              "name": "_type",
+              "fixed": "uint256"
+            },
+            {
+              "name": "_path",
+              "fixed": ""
+            },
+            {
+              "name": "_times",
+              "fixed": "1000000000000000000"
+            }
+          ]
+        }
+      ],
+      "oisFormat": "2.3.1",
+      "title": "OEV_TEST_FEED",
+      "version": "0.1.0"
+    }
+  ],
+  "apiCredentials": [],
+  "nodeSettings": {
+    "nodeVersion": "0.5.0",
+    "airnodeWalletMnemonic": "${WALLET_MNEMONIC}",
+    "stage": "local-example"
+  }
+}
